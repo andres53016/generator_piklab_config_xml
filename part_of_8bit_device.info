@@ -1,0 +1,164 @@
+<PART_INFO_TYPE><b580><PIC18F45K80><18xxxx><6><1><7fff><10><ff><3ff><5f><0><c>
+<CONFIGREG_INFO_TYPE><300000><0><5d><4>
+<SWITCH_INFO_TYPE><RETEN><VREG Sleep Enable bit><1><2>
+<SETTING_VALUE_TYPE><ON><Ultra low-power regulator is Enabled (Controlled by SRETEN bit)><0>
+<SETTING_VALUE_TYPE><OFF><Ultra low-power regulator is Disabled (Controlled by REGSLP bit)><1>
+<SWITCH_INFO_TYPE><INTOSCSEL><LF-INTOSC Low-power Enable bit><4><2>
+<SETTING_VALUE_TYPE><LOW><LF-INTOSC in Low-power mode during Sleep><0>
+<SETTING_VALUE_TYPE><HIGH><LF-INTOSC in High-power mode during Sleep><4>
+<SWITCH_INFO_TYPE><SOSCSEL><SOSC Power Selection and mode Configuration bits><18><3>
+<SETTING_VALUE_TYPE><LOW><Low Power SOSC circuit selected><8>
+<SETTING_VALUE_TYPE><DIG><Digital (SCLKI) mode><10>
+<SETTING_VALUE_TYPE><HIGH><High Power SOSC circuit selected><18>
+<SWITCH_INFO_TYPE><XINST><Extended Instruction Set><40><2>
+<SETTING_VALUE_TYPE><OFF><Disabled><0>
+<SETTING_VALUE_TYPE><ON><Enabled><40>
+<CONFIGREG_INFO_TYPE><300001><0><8><4>
+<SWITCH_INFO_TYPE><FOSC><Oscillator><f><e>
+<SETTING_VALUE_TYPE><LP><LP oscillator><0>
+<SETTING_VALUE_TYPE><XT><XT oscillator><1>
+<SETTING_VALUE_TYPE><HS2><HS oscillator (High power, 16 MHz - 25 MHz)><2>
+<SETTING_VALUE_TYPE><HS1><HS oscillator (Medium power, 4 MHz - 16 MHz)><3>
+<SETTING_VALUE_TYPE><EC3IO><EC oscillator, CLKOUT function on OSC2 (High power, 16 MHz - 64 MHz)><4>
+<SETTING_VALUE_TYPE><EC3><EC oscillator (High power, 16 MHz - 64 MHz)><5>
+<SETTING_VALUE_TYPE><RC><External RC oscillator, CLKOUT function on OSC2><6>
+<SETTING_VALUE_TYPE><RCIO><External RC oscillator><7>
+<SETTING_VALUE_TYPE><INTIO2><Internal RC oscillator><8>
+<SETTING_VALUE_TYPE><INTIO1><Internal RC oscillator, CLKOUT function on OSC2><9>
+<SETTING_VALUE_TYPE><EC2IO><EC oscillator, CLKOUT function on OSC2 (Medium power, 160 kHz - 4 MHz)><a>
+<SETTING_VALUE_TYPE><EC2><EC oscillator (Medium power, 160 kHz - 4 MHz)><b>
+<SETTING_VALUE_TYPE><EC1IO><EC oscillator, CLKOUT function on OSC2 (Low power, DC - 160 kHz)><c>
+<SETTING_VALUE_TYPE><EC1><EC oscillator (Low power, DC - 160 kHz)><d>
+<SWITCH_INFO_TYPE><PLLCFG><PLL x4 Enable bit><10><2>
+<SETTING_VALUE_TYPE><OFF><Disabled><0>
+<SETTING_VALUE_TYPE><ON><Enabled><10>
+<SWITCH_INFO_TYPE><FCMEN><Fail-Safe Clock Monitor><40><2>
+<SETTING_VALUE_TYPE><OFF><Disabled><0>
+<SETTING_VALUE_TYPE><ON><Enabled><40>
+<SWITCH_INFO_TYPE><IESO><Internal External Oscillator Switch Over Mode><80><2>
+<SETTING_VALUE_TYPE><OFF><Disabled><0>
+<SETTING_VALUE_TYPE><ON><Enabled><80>
+<CONFIGREG_INFO_TYPE><300002><0><7f><4>
+<SWITCH_INFO_TYPE><PWRTEN><Power Up Timer><1><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><1>
+<SWITCH_INFO_TYPE><BOREN><Brown Out Detect><6><4>
+<SETTING_VALUE_TYPE><OFF><Disabled in hardware, SBOREN disabled><0>
+<SETTING_VALUE_TYPE><ON><Controlled with SBOREN bit><2>
+<SETTING_VALUE_TYPE><NOSLP><Enabled while active, disabled in SLEEP, SBOREN disabled><4>
+<SETTING_VALUE_TYPE><SBORDIS><Enabled in hardware, SBOREN disabled><6>
+<SWITCH_INFO_TYPE><BORV><Brown-out Reset Voltage bits><18><4>
+<SETTING_VALUE_TYPE><0><3.0V><0>
+<SETTING_VALUE_TYPE><1><2.7V><8>
+<SETTING_VALUE_TYPE><2><2.0V><10>
+<SETTING_VALUE_TYPE><3><1.8V><18>
+<SWITCH_INFO_TYPE><BORPWR><BORMV Power level><60><4>
+<SETTING_VALUE_TYPE><LOW><BORMV set to low power level><0>
+<SETTING_VALUE_TYPE><MEDIUM><BORMV set to medium power level><20>
+<SETTING_VALUE_TYPE><HIGH><BORMV set to high power level><40>
+<SETTING_VALUE_TYPE><ZPBORMV><ZPBORMV instead of BORMV is selected><60>
+<CONFIGREG_INFO_TYPE><300003><0><7f><2>
+<SWITCH_INFO_TYPE><WDTEN><Watchdog Timer><3><4>
+<SETTING_VALUE_TYPE><OFF><WDT disabled in hardware; SWDTEN bit disabled><0>
+<SETTING_VALUE_TYPE><NOSLP><WDT enabled only while device is active and disabled in Sleep mode; SWDTEN bit disabled><1>
+<SETTING_VALUE_TYPE><ON><WDT controlled by SWDTEN bit setting><2>
+<SETTING_VALUE_TYPE><SWDTDIS><WDT enabled in hardware; SWDTEN bit disabled><3>
+<SWITCH_INFO_TYPE><WDTPS><Watchdog Postscaler><7c><15>
+<SETTING_VALUE_TYPE><1><1:1><0>
+<SETTING_VALUE_TYPE><2><1:2><4>
+<SETTING_VALUE_TYPE><4><1:4><8>
+<SETTING_VALUE_TYPE><8><1:8><c>
+<SETTING_VALUE_TYPE><16><1:16><10>
+<SETTING_VALUE_TYPE><32><1:32><14>
+<SETTING_VALUE_TYPE><64><1:64><18>
+<SETTING_VALUE_TYPE><128><1:128><1c>
+<SETTING_VALUE_TYPE><256><1:256><20>
+<SETTING_VALUE_TYPE><512><1:512><24>
+<SETTING_VALUE_TYPE><1024><1:1024><28>
+<SETTING_VALUE_TYPE><2048><1:2048><2c>
+<SETTING_VALUE_TYPE><4096><1:4096><30>
+<SETTING_VALUE_TYPE><8192><1:8192><34>
+<SETTING_VALUE_TYPE><16384><1:16384><38>
+<SETTING_VALUE_TYPE><32768><1:32768><3c>
+<SETTING_VALUE_TYPE><65536><1:65536><40>
+<SETTING_VALUE_TYPE><131072><1:131072><44>
+<SETTING_VALUE_TYPE><262144><1:262144><48>
+<SETTING_VALUE_TYPE><524288><1:524288><4c>
+<SETTING_VALUE_TYPE><1048576><1:1048576><7c>
+<CONFIGREG_INFO_TYPE><300005><0><89><3>
+<SWITCH_INFO_TYPE><CANMX><ECAN Mux bit><1><2>
+<SETTING_VALUE_TYPE><PORTC><ECAN TX and RX pins are located on RC6 and RC7, respectively><0>
+<SETTING_VALUE_TYPE><PORTB><ECAN TX and RX pins are located on RB2 and RB3, respectively><1>
+<SWITCH_INFO_TYPE><MSSPMSK><MSSP address masking><8><2>
+<SETTING_VALUE_TYPE><MSK5><5 bit address masking mode><0>
+<SETTING_VALUE_TYPE><MSK7><7 Bit address masking mode><8>
+<SWITCH_INFO_TYPE><MCLRE><Master Clear Enable><80><2>
+<SETTING_VALUE_TYPE><OFF><MCLR Disabled, RG5 Enabled><0>
+<SETTING_VALUE_TYPE><ON><MCLR Enabled, RG5 Disabled><80>
+<CONFIGREG_INFO_TYPE><300006><0><91><2>
+<SWITCH_INFO_TYPE><STVREN><Stack Overflow Reset><1><2>
+<SETTING_VALUE_TYPE><OFF><Disabled><0>
+<SETTING_VALUE_TYPE><ON><Enabled><1>
+<SWITCH_INFO_TYPE><BBSIZ><Boot Block Size><10><2>
+<SETTING_VALUE_TYPE><BB1K><1K word Boot Block size><0>
+<SETTING_VALUE_TYPE><BB2K><2K word Boot Block size><10>
+<CONFIGREG_INFO_TYPE><300008><0><f><4>
+<SWITCH_INFO_TYPE><CP0><Code Protect 00800-01FFF><1><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><1>
+<SWITCH_INFO_TYPE><CP1><Code Protect 02000-03FFF><2><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><2>
+<SWITCH_INFO_TYPE><CP2><Code Protect 04000-05FFF><4><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><4>
+<SWITCH_INFO_TYPE><CP3><Code Protect 06000-07FFF><8><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><8>
+<CONFIGREG_INFO_TYPE><300009><0><c0><2>
+<SWITCH_INFO_TYPE><CPB><Code Protect Boot><40><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><40>
+<SWITCH_INFO_TYPE><CPD><Data EE Read Protect><80><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><80>
+<CONFIGREG_INFO_TYPE><30000a><0><f><4>
+<SWITCH_INFO_TYPE><WRT0><Table Write Protect 00800-03FFF><1><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><1>
+<SWITCH_INFO_TYPE><WRT1><Table Write Protect 04000-07FFF><2><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><2>
+<SWITCH_INFO_TYPE><WRT2><Table Write Protect 08000-0BFFF><4><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><4>
+<SWITCH_INFO_TYPE><WRT3><Table Write Protect 0C000-0FFFF><8><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><8>
+<CONFIGREG_INFO_TYPE><30000b><0><e0><3>
+<SWITCH_INFO_TYPE><WRTC><Config. Write Protect><20><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><20>
+<SWITCH_INFO_TYPE><WRTB><Table Write Protect Boot><40><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><40>
+<SWITCH_INFO_TYPE><WRTD><Data EE Write Protect><80><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><80>
+<CONFIGREG_INFO_TYPE><30000c><0><f><4>
+<SWITCH_INFO_TYPE><EBTR0><Table Read Protect 00800-03FFF><1><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><1>
+<SWITCH_INFO_TYPE><EBTR1><Table Read Protect 04000-07FFF><2><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><2>
+<SWITCH_INFO_TYPE><EBTR2><Table Read Protect 08000-0BFFF><4><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><4>
+<SWITCH_INFO_TYPE><EBTR3><Table Read Protect 0C000-0FFFF><8><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><8>
+<CONFIGREG_INFO_TYPE><30000d><0><40><1>
+<SWITCH_INFO_TYPE><EBTRB><Table Read Protect Boot><40><2>
+<SETTING_VALUE_TYPE><ON><Enabled><0>
+<SETTING_VALUE_TYPE><OFF><Disabled><40> 

@@ -1,0 +1,224 @@
+  <config offset="0x0" name="CONFIG1L" wmask="0xFF" bvalue="0x5D" >
+    <mask name="RETEN"  value="0x01" >
+      <value value="0x00" name="ON"           def="_RETEN_ON"       />
+      <value value="0x01" name="OFF"          def="_RETEN_OFF"      />
+    </mask>
+    <mask name="INTOSCSEL"  value="0x04" >
+      <value value="0x00" name="LOW"          def="_INTOSCSEL_LOW"  />
+      <value value="0x04" name="HIGH"         def="_INTOSCSEL_HIGH" />
+    </mask>
+    <mask name="SOSCSEL"  value="0x18" >
+      <value value="0x08" name="LOW"          def="_SOSCSEL_LOW"    />
+      <value value="0x10" name="DIG"          def="_SOSCSEL_DIG"    />
+      <value value="0x18" name="HIGH"         def="_SOSCSEL_HIGH"   />
+    </mask>
+    <mask name="XINST"  value="0x40" >
+      <value value="0x00" name="OFF"          def="_XINST_OFF"      />
+      <value value="0x40" name="ON"           def="_XINST_ON"       />
+    </mask>
+  </config>
+
+  <config offset="0x1" name="CONFIG1H" wmask="0xFF" bvalue="0x08" >
+    <mask name="FOSC"  value="0x0F" >
+      <value value="0x00" name="LP"           def="_FOSC_LP"        />
+      <value value="0x01" name="XT"           def="_FOSC_XT"        />
+      <value value="0x02" name="HS2"          def="_FOSC_HS2"       />
+      <value value="0x03" name="HS1"          def="_FOSC_HS1"       />
+      <value value="0x04" name="EC3IO"        def="_FOSC_EC3IO"     />
+      <value value="0x05" name="EC3"          def="_FOSC_EC3"       />
+      <value value="0x06" name="RC"           def="_FOSC_RC"        />
+      <value value="0x07" name="RCIO"         def="_FOSC_RCIO"      />
+      <value value="0x08" name="INTIO2"       def="_FOSC_INTIO2"    />
+      <value value="0x09" name="INTIO1"       def="_FOSC_INTIO1"    />
+      <value value="0x0A" name="EC2IO"        def="_FOSC_EC2IO"     />
+      <value value="0x0B" name="EC2"          def="_FOSC_EC2"       />
+      <value value="0x0C" name="EC1IO"        def="_FOSC_EC1IO"     />
+      <value value="0x0D" name="EC1"          def="_FOSC_EC1"       />
+    </mask>
+    <mask name="PLLCFG"  value="0x10" >
+      <value value="0x00" name="OFF"          def="_PLLCFG_OFF"     />
+      <value value="0x10" name="ON"           def="_PLLCFG_ON"      />
+    </mask>
+    <mask name="FCMEN"  value="0x40" >
+      <value value="0x00" name="OFF"          def="_FCMEN_OFF"      />
+      <value value="0x40" name="ON"           def="_FCMEN_ON"       />
+    </mask>
+    <mask name="IESO"  value="0x80" >
+      <value value="0x00" name="OFF"          def="_IESO_OFF"       />
+      <value value="0x80" name="ON"           def="_IESO_ON"        />
+    </mask>
+  </config>
+
+  <config offset="0x2" name="CONFIG2L" wmask="0xFF" bvalue="0x7F" >
+    <mask name="PWRTEN"  value="0x01" >
+      <value value="0x00" name="ON"           def="_PWRTEN_ON"      />
+      <value value="0x01" name="OFF"          def="_PWRTEN_OFF"     />
+    </mask>
+    <mask name="BOREN"  value="0x06" >
+      <value value="0x00" name="OFF"          def="_BOREN_OFF"      />
+      <value value="0x02" name="ON"           def="_BOREN_ON"       />
+      <value value="0x04" name="NOSLP"        def="_BOREN_NOSLP"    />
+      <value value="0x06" name="SBORDIS"      def="_BOREN_SBORDIS"  />
+    </mask>
+    <mask name="BORV"  value="0x18" >
+      <value value="0x00" name="0"            def="_BORV_0"         />
+      <value value="0x08" name="1"            def="_BORV_1"         />
+      <value value="0x10" name="2"            def="_BORV_2"         />
+      <value value="0x18" name="3"            def="_BORV_3"         />
+    </mask>
+    <mask name="BORPWR"  value="0x60" >
+      <value value="0x00" name="LOW"          def="_BORPWR_LOW"     />
+      <value value="0x20" name="MEDIUM"       def="_BORPWR_MEDIUM"  />
+      <value value="0x40" name="HIGH"         def="_BORPWR_HIGH"    />
+      <value value="0x60" name="ZPBORMV"      def="_BORPWR_ZPBORMV" />
+    </mask>
+  </config>
+
+  <config offset="0x3" name="CONFIG2H" wmask="0xFF" bvalue="0x7F" >
+    <mask name="WDTEN"  value="0x03" >
+      <value value="0x00" name="OFF"          def="_WDTEN_OFF"      />
+      <value value="0x01" name="NOSLP"        def="_WDTEN_NOSLP"    />
+      <value value="0x02" name="ON"           def="_WDTEN_ON"       />
+      <value value="0x03" name="SWDTDIS"      def="_WDTEN_SWDTDIS"  />
+    </mask>
+    <mask name="WDTPS"  value="0x7C" >
+      <value value="0x00" name="1"            def="_WDTPS_1"        />
+      <value value="0x04" name="2"            def="_WDTPS_2"        />
+      <value value="0x08" name="4"            def="_WDTPS_4"        />
+      <value value="0x0C" name="8"            def="_WDTPS_8"        />
+      <value value="0x10" name="16"           def="_WDTPS_16"       />
+      <value value="0x14" name="32"           def="_WDTPS_32"       />
+      <value value="0x18" name="64"           def="_WDTPS_64"       />
+      <value value="0x1C" name="128"          def="_WDTPS_128"      />
+      <value value="0x20" name="256"          def="_WDTPS_256"      />
+      <value value="0x24" name="512"          def="_WDTPS_512"      />
+      <value value="0x28" name="1024"         def="_WDTPS_1024"     />
+      <value value="0x2C" name="2048"         def="_WDTPS_2048"     />
+      <value value="0x30" name="4096"         def="_WDTPS_4096"     />
+      <value value="0x34" name="8192"         def="_WDTPS_8192"     />
+      <value value="0x38" name="16384"        def="_WDTPS_16384"    />
+      <value value="0x3C" name="32768"        def="_WDTPS_32768"    />
+      <value value="0x40" name="65536"        def="_WDTPS_65536"    />
+      <value value="0x44" name="131072"       def="_WDTPS_131072"   />
+      <value value="0x48" name="262144"       def="_WDTPS_262144"   />
+      <value value="0x4C" name="524288"       def="_WDTPS_524288"   />
+      <value value="0x7C" name="1048576"      def="_WDTPS_1048576"  />
+    </mask>
+  </config>
+
+  <config offset="0x4" name="CONFIG3H" wmask="0xFF" bvalue="0x89" >
+    <mask name="CANMX"  value="0x01" >
+      <value value="0x00" name="PORTC"        def="_CANMX_PORTC"    />
+      <value value="0x01" name="PORTB"        def="_CANMX_PORTB"    />
+    </mask>
+    <mask name="MSSPMSK"  value="0x08" >
+      <value value="0x00" name="MSK5"         def="_MSSPMSK_MSK5"   />
+      <value value="0x08" name="MSK7"         def="_MSSPMSK_MSK7"   />
+    </mask>
+    <mask name="MCLRE"  value="0x80" >
+      <value value="0x00" name="OFF"          def="_MCLRE_OFF"      />
+      <value value="0x80" name="ON"           def="_MCLRE_ON"       />
+    </mask>
+  </config>
+
+  <config offset="0x5" name="CONFIG4L" wmask="0xFF" bvalue="0x91" >
+    <mask name="STVREN"  value="0x01" >
+      <value value="0x00" name="OFF"          def="_STVREN_OFF"     />
+      <value value="0x01" name="ON"           def="_STVREN_ON"      />
+    </mask>
+    <mask name="BBSIZ"  value="0x10" >
+      <value value="0x00" name="BB1K"         def="_BBSIZ_BB1K"     />
+      <value value="0x10" name="BB2K"         def="_BBSIZ_BB2K"     />
+    </mask>
+  </config>
+
+  <config offset="0x6" name="CONFIG5L" wmask="0xFF" bvalue="0x0F" >
+    <mask name="CP0"  value="0x01" >
+      <value value="0x00" name="ON"           def="_CP0_ON"         />
+      <value value="0x01" name="OFF"          def="_CP0_OFF"        />
+    </mask>
+    <mask name="CP1"  value="0x02" >
+      <value value="0x00" name="ON"           def="_CP1_ON"         />
+      <value value="0x02" name="OFF"          def="_CP1_OFF"        />
+    </mask>
+    <mask name="CP2"  value="0x04" >
+      <value value="0x00" name="ON"           def="_CP2_ON"         />
+      <value value="0x04" name="OFF"          def="_CP2_OFF"        />
+    </mask>
+    <mask name="CP3"  value="0x08" >
+      <value value="0x00" name="ON"           def="_CP3_ON"         />
+      <value value="0x08" name="OFF"          def="_CP3_OFF"        />
+    </mask>
+  </config>
+
+  <config offset="0x7" name="CONFIG5H" wmask="0xFF" bvalue="0xC0" >
+    <mask name="CPB"  value="0x40" >
+      <value value="0x00" name="ON"           def="_CPB_ON"         />
+      <value value="0x40" name="OFF"          def="_CPB_OFF"        />
+    </mask>
+    <mask name="CPD"  value="0x80" >
+      <value value="0x00" name="ON"           def="_CPD_ON"         />
+      <value value="0x80" name="OFF"          def="_CPD_OFF"        />
+    </mask>
+  </config>
+
+  <config offset="0x8" name="CONFIG6L" wmask="0xFF" bvalue="0x0F" >
+    <mask name="WRT0"  value="0x01" >
+      <value value="0x00" name="ON"           def="_WRT0_ON"        />
+      <value value="0x01" name="OFF"          def="_WRT0_OFF"       />
+    </mask>
+    <mask name="WRT1"  value="0x02" >
+      <value value="0x00" name="ON"           def="_WRT1_ON"        />
+      <value value="0x02" name="OFF"          def="_WRT1_OFF"       />
+    </mask>
+    <mask name="WRT2"  value="0x04" >
+      <value value="0x00" name="ON"           def="_WRT2_ON"        />
+      <value value="0x04" name="OFF"          def="_WRT2_OFF"       />
+    </mask>
+    <mask name="WRT3"  value="0x08" >
+      <value value="0x00" name="ON"           def="_WRT3_ON"        />
+      <value value="0x08" name="OFF"          def="_WRT3_OFF"       />
+    </mask>
+  </config>
+
+  <config offset="0x9" name="CONFIG6H" wmask="0xFF" bvalue="0xE0" >
+    <mask name="WRTC"  value="0x20" >
+      <value value="0x00" name="ON"           def="_WRTC_ON"        />
+      <value value="0x20" name="OFF"          def="_WRTC_OFF"       />
+    </mask>
+    <mask name="WRTB"  value="0x40" >
+      <value value="0x00" name="ON"           def="_WRTB_ON"        />
+      <value value="0x40" name="OFF"          def="_WRTB_OFF"       />
+    </mask>
+    <mask name="WRTD"  value="0x80" >
+      <value value="0x00" name="ON"           def="_WRTD_ON"        />
+      <value value="0x80" name="OFF"          def="_WRTD_OFF"       />
+    </mask>
+  </config>
+
+  <config offset="0xA" name="CONFIG7L" wmask="0xFF" bvalue="0x0F" >
+    <mask name="EBTR0"  value="0x01" >
+      <value value="0x00" name="ON"           def="_EBTR0_ON"       />
+      <value value="0x01" name="OFF"          def="_EBTR0_OFF"      />
+    </mask>
+    <mask name="EBTR1"  value="0x02" >
+      <value value="0x00" name="ON"           def="_EBTR1_ON"       />
+      <value value="0x02" name="OFF"          def="_EBTR1_OFF"      />
+    </mask>
+    <mask name="EBTR2"  value="0x04" >
+      <value value="0x00" name="ON"           def="_EBTR2_ON"       />
+      <value value="0x04" name="OFF"          def="_EBTR2_OFF"      />
+    </mask>
+    <mask name="EBTR3"  value="0x08" >
+      <value value="0x00" name="ON"           def="_EBTR3_ON"       />
+      <value value="0x08" name="OFF"          def="_EBTR3_OFF"      />
+    </mask>
+  </config>
+
+  <config offset="0xB" name="CONFIG7H" wmask="0xFF" bvalue="0x40" >
+    <mask name="EBTRB"  value="0x40" >
+      <value value="0x00" name="ON"           def="_EBTRB_ON"       />
+      <value value="0x40" name="OFF"          def="_EBTRB_OFF"      />
+    </mask>
+  </config>
+
